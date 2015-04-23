@@ -17,6 +17,7 @@
 		C6C25F4E1AE8EE9E004431E1 /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C25F4D1AE8EE9E004431E1 /* BarGraph.swift */; };
 		C6C25F521AE8F050004431E1 /* BarGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C25F511AE8F050004431E1 /* BarGraphViewController.swift */; };
 		C6C25F541AE8F14B004431E1 /* Graphing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C25F531AE8F14B004431E1 /* Graphing.storyboard */; };
+		C6C25F581AE9020C004431E1 /* Labels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C25F571AE9020C004431E1 /* Labels.storyboard */; };
 		C6F5F3CA1AE6C5230014728C /* StyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F5F3C91AE6C5230014728C /* StyledButton.swift */; };
 		C6F5F3CC1AE6CBB80014728C /* ColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F5F3CB1AE6CBB80014728C /* ColoredView.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,7 @@
 		C6C25F4D1AE8EE9E004431E1 /* BarGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
 		C6C25F511AE8F050004431E1 /* BarGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarGraphViewController.swift; sourceTree = "<group>"; };
 		C6C25F531AE8F14B004431E1 /* Graphing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Graphing.storyboard; sourceTree = "<group>"; };
+		C6C25F571AE9020C004431E1 /* Labels.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Labels.storyboard; sourceTree = "<group>"; };
 		C6F5F3C91AE6C5230014728C /* StyledButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledButton.swift; sourceTree = "<group>"; };
 		C6F5F3CB1AE6CBB80014728C /* ColoredView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoredView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,10 +129,8 @@
 				C638C33F1AE5F3E800B85ADC /* BorderedView.swift */,
 				C6F5F3C91AE6C5230014728C /* StyledButton.swift */,
 				C6F5F3CB1AE6CBB80014728C /* ColoredView.swift */,
-				C6A0CE2B1AE755C4008F67C4 /* PaddedLabel.swift */,
-				C6C25F4D1AE8EE9E004431E1 /* BarGraph.swift */,
-				C6C25F511AE8F050004431E1 /* BarGraphViewController.swift */,
-				C6C25F531AE8F14B004431E1 /* Graphing.storyboard */,
+				C6C25F561AE90200004431E1 /* PaddedLabels */,
+				C6C25F551AE90076004431E1 /* Bar Graph Stuff */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -144,6 +144,25 @@
 				C638C3281AE5F16400B85ADC /* LaunchScreen.xib */,
 			);
 			name = Base;
+			sourceTree = "<group>";
+		};
+		C6C25F551AE90076004431E1 /* Bar Graph Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				C6C25F4D1AE8EE9E004431E1 /* BarGraph.swift */,
+				C6C25F511AE8F050004431E1 /* BarGraphViewController.swift */,
+				C6C25F531AE8F14B004431E1 /* Graphing.storyboard */,
+			);
+			name = "Bar Graph Stuff";
+			sourceTree = "<group>";
+		};
+		C6C25F561AE90200004431E1 /* PaddedLabels */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0CE2B1AE755C4008F67C4 /* PaddedLabel.swift */,
+				C6C25F571AE9020C004431E1 /* Labels.storyboard */,
+			);
+			name = PaddedLabels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +249,7 @@
 				C638C32A1AE5F16400B85ADC /* LaunchScreen.xib in Resources */,
 				C6C25F541AE8F14B004431E1 /* Graphing.storyboard in Resources */,
 				C638C3271AE5F16400B85ADC /* Images.xcassets in Resources */,
+				C6C25F581AE9020C004431E1 /* Labels.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

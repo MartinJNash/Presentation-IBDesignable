@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14E7f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="j4y-La-lgi">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Xie-it-rNX">
+            <objects>
+                <viewController id="j4y-La-lgi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zNN-ef-ppB"/>
+                        <viewControllerLayoutGuide type="bottom" id="iao-HX-uaF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fsy-oE-HUw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cNA-JK-O5X" customClass="PaddedLabel" customModule="IBDesignableBasics" customModuleProvider="target">
+                                <rect key="frame" x="66" y="176" width="188" height="47"/>
+                                <color key="tintColor" red="0.13755608159999999" green="0.52613941019999999" blue="0.39789284110000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                        <real key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="日本語のストリング"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A90-gp-Sep" customClass="PaddedLabel" customModule="IBDesignableBasics" customModuleProvider="target">
+                                <rect key="frame" x="44" y="276" width="233" height="51"/>
+                                <color key="tintColor" red="0.8896615282" green="0.49558830939999998" blue="0.2003288553" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="Width Boost 🐔"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="23"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="trailingBoost">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leadingBoost">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b6q-BL-KCR" customClass="PaddedLabel" customModule="IBDesignableBasics" customModuleProvider="target">
+                                <rect key="frame" x="49" y="231" width="222" height="37"/>
+                                <color key="tintColor" red="0.8896615282" green="0.21918611360000001" blue="0.87200624110000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                        <real key="value" value="13"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="Negative Top Boost"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="topBoost">
+                                        <real key="value" value="-10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5RE-Zt-PWP" customClass="PaddedLabel" customModule="IBDesignableBasics" customModuleProvider="target">
+                                <rect key="frame" x="52" y="122" width="216" height="46"/>
+                                <color key="tintColor" red="0.01014897924" green="0.12873108599999999" blue="0.94142719500000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="22"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="My Longer String"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leadingBoost">
+                                        <real key="value" value="-8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="trailingBoost">
+                                        <real key="value" value="-8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3hR-tQ-xMi" customClass="PaddedLabel" customModule="IBDesignableBasics" customModuleProvider="target">
+                                <rect key="frame" x="103" y="77" width="114" height="37"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="My String"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nUZ-ea-Ng6" customClass="PaddedLabel" customModule="IBDesignableBasics" customModuleProvider="target">
+                                <rect key="frame" x="21" y="335" width="280" height="101"/>
+                                <color key="tintColor" red="0.48646071270000002" green="0.49525835099999999" blue="0.021170285939999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="padding">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fontSize">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="Height Boost Boost ⬆️⬇️"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="23"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="topBoost">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="bottomBoost">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="nUZ-ea-Ng6" firstAttribute="top" secondItem="A90-gp-Sep" secondAttribute="bottom" constant="8" id="5VL-sJ-u7I"/>
+                            <constraint firstAttribute="centerX" secondItem="A90-gp-Sep" secondAttribute="centerX" id="GsM-4G-nmS"/>
+                            <constraint firstItem="5RE-Zt-PWP" firstAttribute="top" secondItem="3hR-tQ-xMi" secondAttribute="bottom" constant="8" id="HnA-Gj-EYo"/>
+                            <constraint firstAttribute="centerX" secondItem="3hR-tQ-xMi" secondAttribute="centerX" id="Mia-To-yGc"/>
+                            <constraint firstItem="3hR-tQ-xMi" firstAttribute="top" secondItem="zNN-ef-ppB" secondAttribute="bottom" constant="57" id="c5w-W9-mCy"/>
+                            <constraint firstAttribute="centerX" secondItem="nUZ-ea-Ng6" secondAttribute="centerX" constant="-0.5" id="cZc-Aj-Bad"/>
+                            <constraint firstItem="cNA-JK-O5X" firstAttribute="top" secondItem="5RE-Zt-PWP" secondAttribute="bottom" constant="8" id="gn7-c5-6RM"/>
+                            <constraint firstAttribute="centerX" secondItem="cNA-JK-O5X" secondAttribute="centerX" id="hly-Cz-Q5v"/>
+                            <constraint firstItem="A90-gp-Sep" firstAttribute="top" secondItem="b6q-BL-KCR" secondAttribute="bottom" constant="8" id="hvU-5G-Q6P"/>
+                            <constraint firstAttribute="centerX" secondItem="b6q-BL-KCR" secondAttribute="centerX" id="tql-QQ-HwM"/>
+                            <constraint firstAttribute="centerX" secondItem="5RE-Zt-PWP" secondAttribute="centerX" id="wzO-bx-F8u"/>
+                            <constraint firstItem="b6q-BL-KCR" firstAttribute="top" secondItem="cNA-JK-O5X" secondAttribute="bottom" constant="8" id="zYi-oM-gvr"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dQf-TZ-jZd" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-220" y="689"/>
+        </scene>
+    </scenes>
+</document>

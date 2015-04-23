@@ -11,7 +11,7 @@ protocol BarGraphDataSource: class {
 class BarGraph: UIView {
 
     weak var dataSource: BarGraphDataSource?
-    var colors: [UIColor] = [UIColor.blackColor()]
+    var barColors: [UIColor] = [.blackColor()]
     
 
     // MARK: - DataSource bypass methods
@@ -37,7 +37,7 @@ class BarGraph: UIView {
     
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
-        colors = [.redColor(), .greenColor(), .blueColor(), .yellowColor(), .magentaColor()]
+        barColors = [.redColor(), .greenColor(), .blueColor(), .yellowColor(), .magentaColor()]
     }
     
 
@@ -57,7 +57,7 @@ class BarGraph: UIView {
             let barRectangle = CGRect(x: xOffset, y: yOffset, width: barWidth, height: barHeight)
             
             // get color
-            let currentColor = colors[barIndex % colors.count]
+            let currentColor = barColors[barIndex % barColors.count]
             currentColor.set()
 
             // draw
