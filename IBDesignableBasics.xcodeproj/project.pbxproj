@@ -19,7 +19,6 @@
 		C6C25F541AE8F14B004431E1 /* Graphing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C25F531AE8F14B004431E1 /* Graphing.storyboard */; };
 		C6C25F581AE9020C004431E1 /* Labels.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C25F571AE9020C004431E1 /* Labels.storyboard */; };
 		C6F5F3CA1AE6C5230014728C /* StyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F5F3C91AE6C5230014728C /* StyledButton.swift */; };
-		C6F5F3CC1AE6CBB80014728C /* ColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F5F3CB1AE6CBB80014728C /* ColoredView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +48,6 @@
 		C6C25F531AE8F14B004431E1 /* Graphing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Graphing.storyboard; sourceTree = "<group>"; };
 		C6C25F571AE9020C004431E1 /* Labels.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Labels.storyboard; sourceTree = "<group>"; };
 		C6F5F3C91AE6C5230014728C /* StyledButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledButton.swift; sourceTree = "<group>"; };
-		C6F5F3CB1AE6CBB80014728C /* ColoredView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoredView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +126,6 @@
 			children = (
 				C638C33F1AE5F3E800B85ADC /* BorderedView.swift */,
 				C6F5F3C91AE6C5230014728C /* StyledButton.swift */,
-				C6F5F3CB1AE6CBB80014728C /* ColoredView.swift */,
 				C6C25F561AE90200004431E1 /* PaddedLabels */,
 				C6C25F551AE90076004431E1 /* Bar Graph Stuff */,
 			);
@@ -271,7 +268,6 @@
 				C638C3201AE5F16400B85ADC /* AppDelegate.swift in Sources */,
 				C6C25F521AE8F050004431E1 /* BarGraphViewController.swift in Sources */,
 				C6F5F3CA1AE6C5230014728C /* StyledButton.swift in Sources */,
-				C6F5F3CC1AE6CBB80014728C /* ColoredView.swift in Sources */,
 				C638C3401AE5F3E800B85ADC /* BorderedView.swift in Sources */,
 				C6C25F4E1AE8EE9E004431E1 /* BarGraph.swift in Sources */,
 			);

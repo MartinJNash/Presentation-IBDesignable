@@ -23,6 +23,9 @@
                                     <constraint firstAttribute="width" constant="273" id="cGu-im-5wR"/>
                                     <constraint firstAttribute="height" constant="247" id="m2t-Ei-B5m"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="showGradient" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.79874491815310855" green="1" blue="0.88113356830913014" alpha="1" colorSpace="calibratedRGB"/>
@@ -38,7 +41,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QV8-4Q-v2N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="417" y="142"/>
+            <point key="canvasLocation" x="277" y="130"/>
         </scene>
     </scenes>
 </document>

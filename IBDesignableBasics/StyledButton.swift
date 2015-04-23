@@ -23,7 +23,14 @@ class StyledButton: UIButton {
         }
     }
     
-    private var insideColor: UIColor {
+    @IBInspectable var fillColor: UIColor? {
+        didSet {
+            updateLayerForVariables()
+        }
+    }
+
+    
+    private var calculatedBorderAndTextColor: UIColor {
         return borderColor ?? tintColor!
     }
     
@@ -57,13 +64,11 @@ class StyledButton: UIButton {
     }
     
     private func updateLayerForVariables() {
-        self.setTitleColor(insideColor, forState: UIControlState.Normal)
+        self.setTitleColor(calculatedBorderAndTextColor, forState: UIControlState.Normal)
         layer.borderWidth = borderWidth
-        layer.borderColor = insideColor.CGColor
+        layer.borderColor = calculatedBorderAndTextColor.CGColor
         layer.cornerRadius = cornerRadius
-        layer.backgroundColor = UIColor.redColor().CGColor
+        layer.backgroundColor = fillColor?.CGColor
     }
-
-    
 
 }

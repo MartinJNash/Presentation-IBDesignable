@@ -10,6 +10,8 @@ protocol BarGraphDataSource: class {
 @IBDesignable
 class BarGraph: UIView {
 
+    @IBInspectable var showGradient: Bool = false
+    
     weak var dataSource: BarGraphDataSource?
     var barColors: [UIColor] = [.blackColor()]
     
@@ -66,20 +68,23 @@ class BarGraph: UIView {
 
             
             
-//            // make gradient for fun
-//            let cc = [UIColor.whiteColor().CGColor, UIColor.darkGrayColor().CGColor]
-//            var loc: [CGFloat] = [0.0, 1.0]
-//            let grad = CGGradientCreateWithColors(CGColorSpaceCreateDeviceRGB(), cc, &loc)
-//            
-//            let context = UIGraphicsGetCurrentContext()
-//            CGContextSaveGState(context)
-//            CGContextAddRect(context, barRectangle)
-//            CGContextClip(context)
-//            CGContextSetBlendMode(context, kCGBlendModeDarken)
-//            let starting = CGPoint(x: barRectangle.minX, y: barRectangle.minY)
-//            let ending   = CGPoint(x: barRectangle.maxX, y: barRectangle.minY)
-//            CGContextDrawLinearGradient(context, grad, starting, ending, 0)
-//            CGContextRestoreGState(context)
+            // make gradient for fun
+            if showGradient {
+                let cc = [UIColor.whiteColor().CGColor, UIColor.darkGrayColor().CGColor]
+                var loc: [CGFloat] = [0.0, 1.0]
+                let grad = CGGradientCreateWithColors(CGColorSpaceCreateDeviceRGB(), cc, &loc)
+                
+                let context = UIGraphicsGetCurrentContext()
+                CGContextSaveGState(context)
+                CGContextAddRect(context, barRectangle)
+                CGContextClip(context)
+                CGContextSetBlendMode(context, kCGBlendModeDarken)
+                let starting = CGPoint(x: barRectangle.minX, y: barRectangle.minY)
+                let ending   = CGPoint(x: barRectangle.maxX, y: barRectangle.minY)
+                CGContextDrawLinearGradient(context, grad, starting, ending, 0)
+                CGContextRestoreGState(context)
+            }
+            
         }
         
         
