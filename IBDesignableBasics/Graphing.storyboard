@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14E7f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Bar Graph View Controller-->
+        <scene sceneID="dtQ-mv-v6c">
+            <objects>
+                <viewController id="1sX-TJ-dHE" customClass="BarGraphViewController" customModule="IBDesignableBasics" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MkJ-Jo-kJL"/>
+                        <viewControllerLayoutGuide type="bottom" id="2cK-sa-qVc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hvd-Tn-j99">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7gi-hf-Ogt" customClass="BarGraph" customModule="IBDesignableBasics" customModuleProvider="target">
+                                <rect key="frame" x="24" y="68" width="273" height="247"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="273" id="cGu-im-5wR"/>
+                                    <constraint firstAttribute="height" constant="247" id="m2t-Ei-B5m"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.79874491815310855" green="1" blue="0.88113356830913014" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="7gi-hf-Ogt" firstAttribute="top" secondItem="MkJ-Jo-kJL" secondAttribute="bottom" constant="48" id="Px6-CP-HUk"/>
+                            <constraint firstAttribute="centerX" secondItem="7gi-hf-Ogt" secondAttribute="centerX" constant="-0.5" id="Ujp-Ta-htG"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="barGraph" destination="7gi-hf-Ogt" id="Kqw-If-OpJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QV8-4Q-v2N" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="617" y="143"/>
+        </scene>
+    </scenes>
+</document>
