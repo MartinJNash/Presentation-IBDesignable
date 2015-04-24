@@ -16,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UYF-ks-Z5L">
-                                <rect key="frame" x="85" y="120" width="150" height="188"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UYF-ks-Z5L" customClass="SimpleColoredView" customModule="IBDesignableBasics" customModuleProvider="target">
+                                <rect key="frame" x="85" y="190" width="150" height="188"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="Dsl-TZ-cmw"/>
@@ -27,15 +27,15 @@
                         </subviews>
                         <color key="backgroundColor" red="0.63307180360000004" green="1" blue="0.78413671240000005" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstAttribute="centerY" secondItem="UYF-ks-Z5L" secondAttribute="centerY" id="0v8-mQ-YtB"/>
                             <constraint firstAttribute="centerX" secondItem="UYF-ks-Z5L" secondAttribute="centerX" id="YTd-ef-Ki5"/>
-                            <constraint firstItem="UYF-ks-Z5L" firstAttribute="top" secondItem="NRD-km-1lp" secondAttribute="bottom" constant="100" id="vAi-ca-QL4"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K9r-s9-cHr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="371" y="507"/>
+            <point key="canvasLocation" x="279" y="416"/>
         </scene>
     </scenes>
 </document>

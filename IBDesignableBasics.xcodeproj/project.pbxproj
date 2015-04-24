@@ -11,7 +11,6 @@
 		C638C3251AE5F16400B85ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C638C3231AE5F16400B85ADC /* Main.storyboard */; };
 		C638C3271AE5F16400B85ADC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C638C3261AE5F16400B85ADC /* Images.xcassets */; };
 		C638C32A1AE5F16400B85ADC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C638C3281AE5F16400B85ADC /* LaunchScreen.xib */; };
-		C638C3361AE5F16400B85ADC /* IBDesignableBasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638C3351AE5F16400B85ADC /* IBDesignableBasicsTests.swift */; };
 		C638C3401AE5F3E800B85ADC /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638C33F1AE5F3E800B85ADC /* BorderedView.swift */; };
 		C6A0CE2C1AE755C4008F67C4 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A0CE2B1AE755C4008F67C4 /* PaddedLabel.swift */; };
 		C6B330DA1AE9A56B0013053B /* ColoredBorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B330D91AE9A56B0013053B /* ColoredBorderedView.swift */; };
@@ -25,16 +24,6 @@
 		C6F5F3CA1AE6C5230014728C /* StyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F5F3C91AE6C5230014728C /* StyledButton.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C638C3301AE5F16400B85ADC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C638C3121AE5F16400B85ADC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C638C3191AE5F16400B85ADC;
-			remoteInfo = IBDesignableBasics;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		C638C31A1AE5F16400B85ADC /* IBDesignableBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBDesignableBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C638C31E1AE5F16400B85ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,9 +31,6 @@
 		C638C3241AE5F16400B85ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C638C3261AE5F16400B85ADC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C638C3291AE5F16400B85ADC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		C638C32F1AE5F16400B85ADC /* IBDesignableBasicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBDesignableBasicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C638C3341AE5F16400B85ADC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C638C3351AE5F16400B85ADC /* IBDesignableBasicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignableBasicsTests.swift; sourceTree = "<group>"; };
 		C638C33F1AE5F3E800B85ADC /* BorderedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedView.swift; sourceTree = "<group>"; };
 		C6A0CE2B1AE755C4008F67C4 /* PaddedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
 		C6B330D91AE9A56B0013053B /* ColoredBorderedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoredBorderedView.swift; sourceTree = "<group>"; };
@@ -66,13 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C638C32C1AE5F16400B85ADC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -80,7 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				C638C31C1AE5F16400B85ADC /* IBDesignableBasics */,
-				C638C3321AE5F16400B85ADC /* IBDesignableBasicsTests */,
 				C638C31B1AE5F16400B85ADC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				C638C31A1AE5F16400B85ADC /* IBDesignableBasics.app */,
-				C638C32F1AE5F16400B85ADC /* IBDesignableBasicsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,23 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				C638C31E1AE5F16400B85ADC /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		C638C3321AE5F16400B85ADC /* IBDesignableBasicsTests */ = {
-			isa = PBXGroup;
-			children = (
-				C638C3351AE5F16400B85ADC /* IBDesignableBasicsTests.swift */,
-				C638C3331AE5F16400B85ADC /* Supporting Files */,
-			);
-			path = IBDesignableBasicsTests;
-			sourceTree = "<group>";
-		};
-		C638C3331AE5F16400B85ADC /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C638C3341AE5F16400B85ADC /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -202,24 +162,6 @@
 			productReference = C638C31A1AE5F16400B85ADC /* IBDesignableBasics.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C638C32E1AE5F16400B85ADC /* IBDesignableBasicsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C638C33C1AE5F16400B85ADC /* Build configuration list for PBXNativeTarget "IBDesignableBasicsTests" */;
-			buildPhases = (
-				C638C32B1AE5F16400B85ADC /* Sources */,
-				C638C32C1AE5F16400B85ADC /* Frameworks */,
-				C638C32D1AE5F16400B85ADC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C638C3311AE5F16400B85ADC /* PBXTargetDependency */,
-			);
-			name = IBDesignableBasicsTests;
-			productName = IBDesignableBasicsTests;
-			productReference = C638C32F1AE5F16400B85ADC /* IBDesignableBasicsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -231,10 +173,6 @@
 				TargetAttributes = {
 					C638C3191AE5F16400B85ADC = {
 						CreatedOnToolsVersion = 6.3;
-					};
-					C638C32E1AE5F16400B85ADC = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = C638C3191AE5F16400B85ADC;
 					};
 				};
 			};
@@ -252,7 +190,6 @@
 			projectRoot = "";
 			targets = (
 				C638C3191AE5F16400B85ADC /* IBDesignableBasics */,
-				C638C32E1AE5F16400B85ADC /* IBDesignableBasicsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,13 +206,6 @@
 				C6B330E21AE9A5E10013053B /* InspectableExample.xib in Resources */,
 				C6B330E61AE9AB570013053B /* FIrstClassExample.storyboard in Resources */,
 				C6C25F581AE9020C004431E1 /* Labels.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C638C32D1AE5F16400B85ADC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,23 +227,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C638C32B1AE5F16400B85ADC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C638C3361AE5F16400B85ADC /* IBDesignableBasicsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C638C3311AE5F16400B85ADC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C638C3191AE5F16400B85ADC /* IBDesignableBasics */;
-			targetProxy = C638C3301AE5F16400B85ADC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C638C3231AE5F16400B85ADC /* Main.storyboard */ = {
@@ -436,40 +350,6 @@
 			};
 			name = Release;
 		};
-		C638C33D1AE5F16400B85ADC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = IBDesignableBasicsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IBDesignableBasics.app/IBDesignableBasics";
-			};
-			name = Debug;
-		};
-		C638C33E1AE5F16400B85ADC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = IBDesignableBasicsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IBDesignableBasics.app/IBDesignableBasics";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -487,15 +367,6 @@
 			buildConfigurations = (
 				C638C33A1AE5F16400B85ADC /* Debug */,
 				C638C33B1AE5F16400B85ADC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C638C33C1AE5F16400B85ADC /* Build configuration list for PBXNativeTarget "IBDesignableBasicsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C638C33D1AE5F16400B85ADC /* Debug */,
-				C638C33E1AE5F16400B85ADC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

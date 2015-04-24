@@ -47,7 +47,7 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="string" keyPath="text" value="Width Boost 🐔"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="23"/>
+                                        <real key="value" value="29"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                         <real key="value" value="1"/>
@@ -84,7 +84,7 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5RE-Zt-PWP" customClass="PaddedLabel" customModule="IBDesignableBasics" customModuleProvider="target">
                                 <rect key="frame" x="52" y="122" width="216" height="46"/>
-                                <color key="tintColor" red="0.01014897924" green="0.12873108599999999" blue="0.94142719500000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.7229777718040048" green="0.10337681944839457" blue="0.94142719500000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="padding">
                                         <real key="value" value="10"/>
@@ -165,7 +165,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dQf-TZ-jZd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-220" y="689"/>
+            <point key="canvasLocation" x="-230" y="650"/>
         </scene>
     </scenes>
 </document>

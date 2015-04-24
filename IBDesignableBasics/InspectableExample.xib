@@ -17,6 +17,14 @@
                         <constraint firstAttribute="height" constant="188" id="6Or-Ha-iMP"/>
                         <constraint firstAttribute="width" constant="199" id="Pra-Dm-SfJ"/>
                     </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="28"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="30"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </view>
             </subviews>
             <color key="backgroundColor" red="0.4856325739845494" green="0.82650790260890361" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -25,7 +33,7 @@
                 <constraint firstItem="mVJ-uR-O4K" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="111" id="yON-ek-yA0"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-            <point key="canvasLocation" x="28" y="399"/>
+            <point key="canvasLocation" x="-112" y="313"/>
         </view>
     </objects>
 </document>

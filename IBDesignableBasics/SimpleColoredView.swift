@@ -1,8 +1,22 @@
 
 import UIKit
 
+@IBDesignable
+
 class SimpleColoredView: UIView {
     
+    
+    override func drawRect(rect: CGRect) {
+        super.drawRect(rect)
+        
+        
+        let theColor = UIColor.orangeColor()
+        theColor.set()
+        
+        UIRectFill(rect)
+        
+        
+    }
     
     
 }
