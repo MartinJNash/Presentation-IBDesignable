@@ -4,6 +4,7 @@ import UIKit
 @IBDesignable
 class BorderedView: UIView {
     
+    
     @IBInspectable var borderWidth: CGFloat = 2.0 {
         didSet {
             updateLayerForVariables()

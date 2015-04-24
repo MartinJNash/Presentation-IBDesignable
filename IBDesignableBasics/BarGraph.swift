@@ -7,6 +7,20 @@ protocol BarGraphDataSource: class {
     func barGraph(bg: BarGraph, percentHeightForBarAtIndex idx: Int) -> CGFloat
 }
 
+private class DummyDataSource: BarGraphDataSource {
+
+    private let dummyData: [CGFloat] = [0.2, 0.6, 0.12, 0.85, 0.23]
+    
+    func numberOfBarsInGraph(bg: BarGraph) -> Int {
+        return dummyData.count
+    }
+    
+    func barGraph(bg: BarGraph, percentHeightForBarAtIndex idx: Int) -> CGFloat {
+        return dummyData[idx]
+    }
+    
+}
+
 @IBDesignable
 class BarGraph: UIView {
 
@@ -18,19 +32,19 @@ class BarGraph: UIView {
 
     // MARK: - DataSource bypass methods
     
-    private var defaultHeights: [CGFloat] {
-        return [0.5, 0.3, 0.9, 0.6, 0.7]
-    }
+private var defaultHeights: [CGFloat] {
+    return [0.5, 0.3, 0.9, 0.6, 0.7]
+}
 
-    private var numberOfBars: Int {
-        // ask data source
-        // if data source is nil, use defaults
-        return dataSource?.numberOfBarsInGraph(self) ?? defaultHeights.count
-    }
-    
-    private func percentHeightForBarIndex(idx: Int) -> CGFloat {
-        return dataSource?.barGraph(self, percentHeightForBarAtIndex: idx) ?? defaultHeights[idx]
-    }
+private var numberOfBars: Int {
+    // ask data source
+    // if data source is nil, use defaults
+    return dataSource?.numberOfBarsInGraph(self) ?? defaultHeights.count
+}
+
+private func percentHeightForBarIndex(idx: Int) -> CGFloat {
+    return dataSource?.barGraph(self, percentHeightForBarAtIndex: idx) ?? defaultHeights[idx]
+}
     
     
     
@@ -39,6 +53,9 @@ class BarGraph: UIView {
     
     override func prepareForInterfaceBuilder() {
         super.prepareForInterfaceBuilder()
+        
+        dataSource = DummyDataSource()
+        
         barColors = [.redColor(), .greenColor(), .blueColor(), .yellowColor(), .magentaColor()]
     }
     

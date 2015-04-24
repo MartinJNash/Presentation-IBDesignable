@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14E7f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="u6u-2a-FKB">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="54e-sp-q02">
+            <objects>
+                <viewController id="u6u-2a-FKB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NRD-km-1lp"/>
+                        <viewControllerLayoutGuide type="bottom" id="K2H-ud-CyV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LAn-ei-qDx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UYF-ks-Z5L">
+                                <rect key="frame" x="85" y="120" width="150" height="188"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Dsl-TZ-cmw"/>
+                                    <constraint firstAttribute="height" constant="188" id="oyW-5E-IQ1"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.63307180360000004" green="1" blue="0.78413671240000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="UYF-ks-Z5L" secondAttribute="centerX" id="YTd-ef-Ki5"/>
+                            <constraint firstItem="UYF-ks-Z5L" firstAttribute="top" secondItem="NRD-km-1lp" secondAttribute="bottom" constant="100" id="vAi-ca-QL4"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K9r-s9-cHr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="371" y="507"/>
+        </scene>
+    </scenes>
+</document>

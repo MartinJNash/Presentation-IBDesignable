@@ -14,6 +14,10 @@
 		C638C3361AE5F16400B85ADC /* IBDesignableBasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638C3351AE5F16400B85ADC /* IBDesignableBasicsTests.swift */; };
 		C638C3401AE5F3E800B85ADC /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C638C33F1AE5F3E800B85ADC /* BorderedView.swift */; };
 		C6A0CE2C1AE755C4008F67C4 /* PaddedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A0CE2B1AE755C4008F67C4 /* PaddedLabel.swift */; };
+		C6B330DA1AE9A56B0013053B /* ColoredBorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B330D91AE9A56B0013053B /* ColoredBorderedView.swift */; };
+		C6B330DC1AE9A5810013053B /* SimpleColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B330DB1AE9A5810013053B /* SimpleColoredView.swift */; };
+		C6B330E21AE9A5E10013053B /* InspectableExample.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6B330E11AE9A5E10013053B /* InspectableExample.xib */; };
+		C6B330E61AE9AB570013053B /* FIrstClassExample.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B330E51AE9AB570013053B /* FIrstClassExample.storyboard */; };
 		C6C25F4E1AE8EE9E004431E1 /* BarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C25F4D1AE8EE9E004431E1 /* BarGraph.swift */; };
 		C6C25F521AE8F050004431E1 /* BarGraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6C25F511AE8F050004431E1 /* BarGraphViewController.swift */; };
 		C6C25F541AE8F14B004431E1 /* Graphing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C25F531AE8F14B004431E1 /* Graphing.storyboard */; };
@@ -43,6 +47,10 @@
 		C638C3351AE5F16400B85ADC /* IBDesignableBasicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBDesignableBasicsTests.swift; sourceTree = "<group>"; };
 		C638C33F1AE5F3E800B85ADC /* BorderedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedView.swift; sourceTree = "<group>"; };
 		C6A0CE2B1AE755C4008F67C4 /* PaddedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddedLabel.swift; sourceTree = "<group>"; };
+		C6B330D91AE9A56B0013053B /* ColoredBorderedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColoredBorderedView.swift; sourceTree = "<group>"; };
+		C6B330DB1AE9A5810013053B /* SimpleColoredView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleColoredView.swift; sourceTree = "<group>"; };
+		C6B330E11AE9A5E10013053B /* InspectableExample.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InspectableExample.xib; sourceTree = "<group>"; };
+		C6B330E51AE9AB570013053B /* FIrstClassExample.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FIrstClassExample.storyboard; sourceTree = "<group>"; };
 		C6C25F4D1AE8EE9E004431E1 /* BarGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarGraph.swift; sourceTree = "<group>"; };
 		C6C25F511AE8F050004431E1 /* BarGraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarGraphViewController.swift; sourceTree = "<group>"; };
 		C6C25F531AE8F14B004431E1 /* Graphing.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Graphing.storyboard; sourceTree = "<group>"; };
@@ -89,6 +97,7 @@
 		C638C31C1AE5F16400B85ADC /* IBDesignableBasics */ = {
 			isa = PBXGroup;
 			children = (
+				C6B330D81AE9A54E0013053B /* TO IMPLEMENT */,
 				C6C25F501AE8EFEE004431E1 /* Base */,
 				C6C25F4F1AE8EFDF004431E1 /* Views */,
 				C638C31D1AE5F16400B85ADC /* Supporting Files */,
@@ -119,6 +128,17 @@
 				C638C3341AE5F16400B85ADC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6B330D81AE9A54E0013053B /* TO IMPLEMENT */ = {
+			isa = PBXGroup;
+			children = (
+				C6B330DB1AE9A5810013053B /* SimpleColoredView.swift */,
+				C6B330E51AE9AB570013053B /* FIrstClassExample.storyboard */,
+				C6B330D91AE9A56B0013053B /* ColoredBorderedView.swift */,
+				C6B330E11AE9A5E10013053B /* InspectableExample.xib */,
+			);
+			name = "TO IMPLEMENT";
 			sourceTree = "<group>";
 		};
 		C6C25F4F1AE8EFDF004431E1 /* Views */ = {
@@ -246,6 +266,8 @@
 				C638C32A1AE5F16400B85ADC /* LaunchScreen.xib in Resources */,
 				C6C25F541AE8F14B004431E1 /* Graphing.storyboard in Resources */,
 				C638C3271AE5F16400B85ADC /* Images.xcassets in Resources */,
+				C6B330E21AE9A5E10013053B /* InspectableExample.xib in Resources */,
+				C6B330E61AE9AB570013053B /* FIrstClassExample.storyboard in Resources */,
 				C6C25F581AE9020C004431E1 /* Labels.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,12 +286,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B330DA1AE9A56B0013053B /* ColoredBorderedView.swift in Sources */,
 				C6A0CE2C1AE755C4008F67C4 /* PaddedLabel.swift in Sources */,
 				C638C3201AE5F16400B85ADC /* AppDelegate.swift in Sources */,
 				C6C25F521AE8F050004431E1 /* BarGraphViewController.swift in Sources */,
 				C6F5F3CA1AE6C5230014728C /* StyledButton.swift in Sources */,
 				C638C3401AE5F3E800B85ADC /* BorderedView.swift in Sources */,
 				C6C25F4E1AE8EE9E004431E1 /* BarGraph.swift in Sources */,
+				C6B330DC1AE9A5810013053B /* SimpleColoredView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
